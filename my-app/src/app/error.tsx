@@ -10,7 +10,7 @@ interface ErrorPageProps{
 function ErrorPage({error , reset}: ErrorPageProps) {
   return (
 
-    <div  className='pt-7 text-center'>
+    <div  className='fix-height pt-7 text-center'>
  <div className='text-3x1 text-red-600 font-semibold'>
       Something went wrong 
     </div>
